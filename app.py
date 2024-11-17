@@ -1,7 +1,9 @@
 import streamlit as st
 import numpy as np
 import pickle
-      
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LinearRegression
+
 experience = 0
   
 st.title('Linear Regression salary prediction based on experience')
